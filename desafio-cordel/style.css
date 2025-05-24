@@ -13,7 +13,8 @@
     padding: 0px;
     margin: 0px;
 }
-body{
+html, body{
+    min-height: 100vh;
     background-color: white;
 }
 header{
@@ -25,7 +26,7 @@ header{
 header h1{
     color: white;
     text-align: center;
-    font-size: 12vh;
+    font-size: 10vw;
     font-family: "Passion_One";
 }
 header p{
@@ -42,13 +43,12 @@ a:hover{
     color: yellow;
 }
 div{
-    /* O Padding era 20vh*/
     background-size: cover;
     padding: 20vh;
     background-color: white;
 }
 div p{
-    font-size: 5vh;
+    font-size: 3.5vw;
     font-family: "Sriracha";
 }
 div.img1{
@@ -66,8 +66,7 @@ div.img2{
 p.img{
     background-color: rgba(39, 39, 39, 0.64);
     color: white;
-    max-width: max-content;
-    min-width: min-content;
+    display: inline-block;
 }
 footer{
     background-color: black;
